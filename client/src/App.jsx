@@ -32,7 +32,6 @@ function App() {
     }
 
     const handleTitleChange = (event) => {
-
         setTitle(event.target.value)
     }
 
@@ -75,7 +74,7 @@ function App() {
                           />
                           <span>
                             {todo.title}
-                        </span>
+                          </span>
                           <button className='border ml-4 bg-red-600 text-amber-50 px-2' onClick={() => handleDelete(todo.id)}>x</button>
                       </li>
                   ))}
